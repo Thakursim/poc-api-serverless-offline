@@ -1,0 +1,35 @@
+{
+  "name": "poc-api-serverless-offline",
+  "version": "1.0.0",
+  "description": "Serverless Offline",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thakursim/poc-api-serverless-offline.git"
+  },
+  "keywords": [
+    "Serverless-offline",
+    "Aws",
+    "Lambda",
+    "DynamoDB"
+  ],
+  "author": "Simran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thakursim/poc-api-serverless-offline/issues"
+  },
+  "homepage": "https://github.com/Thakursim/poc-api-serverless-offline#readme",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.36.0",
+    "@aws-sdk/util-dynamodb": "^3.36.0",
+    "serverless": "^2.62.0",
+    "serverless-dynamodb-local": "^0.2.40",
+    "serverless-offline": "^8.2.0"
+  },
+  "devDependencies": {
+    "serverless-iam-roles-per-function": "^3.2.0"
+  }
+}
